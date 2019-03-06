@@ -19,7 +19,7 @@ CLASSIFIERS= [
 
 
 MOD_NAME = "eggnogmapper"
-VERSION = '1.0'
+VERSION = '1.0.3'
 LONG_DESCRIPTION="""
 Fast functional annotation of novel sequences using eggNOG orthology assignments.
 """
@@ -40,7 +40,7 @@ try:
 
         },
         data_files = [],
-
+        scripts=['download_eggnog_data.py', 'emapper.py'],
         # metadata for upload to PyPI
         author = "Jaime Huerta-Cepas",
         author_email = "jhcepas@gmail.com",
